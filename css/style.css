@@ -45,7 +45,7 @@
 
 /* menu nascosto */
 .hidden {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   position: absolute;
@@ -55,4 +55,7 @@
 }
 .hidden li {
   padding: 5px;
+}
+.hidden_show {
+  display: flex;
 }
