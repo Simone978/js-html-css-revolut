@@ -15,6 +15,23 @@
   text-transform: uppercase;
 }
 
+.black {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #EB008D;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+.button:hover {
+  background-color: #D2007E;
+}
 
 /* header */
 
@@ -26,10 +43,17 @@
   height: 120px;
   margin: 0 auto;
 }
-.header_wrapper ul li a{
+.header_wrapper ul li a:not(.black):not(.button){
   text-decoration: none;
   color: grey;
   font-size: 1em;
+}
+.header_wrapper ul li a:not(.black):not(.button):hover{
+  color: black;
+}
+
+.menu_left{
+  align-items: center;
 }
 .menu_left li, .menu_right li{
   padding: 20px;
@@ -41,6 +65,10 @@
 
 .account, .prodotti, .azienda, .aiuto, .it {
   position: relative;
+}
+
+.logo {
+  height: 30px;
 }
 
 /* menu nascosto */
@@ -58,4 +86,7 @@
 }
 .hidden_show {
   display: flex;
+}
+.hidden_i {
+  display: none;
 }
