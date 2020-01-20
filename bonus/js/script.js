@@ -29,8 +29,8 @@ $(document).ready(function(){
       icona2.removeClass('hidden_i');
       icona1.addClass('hidden_i');
     }else{
-    icona1.removeClass('hidden_i');
-    icona2.addClass('hidden_i');
+      icona1.removeClass('hidden_i');
+      icona2.addClass('hidden_i');
     }
   });
 
